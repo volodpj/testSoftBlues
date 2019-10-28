@@ -6,7 +6,7 @@
 .wrapper{
   width: 840px;
   height: 900px;
-  background-color: indianred;
+
 }
 
 .header{
@@ -28,9 +28,38 @@
   color: #000000;
   font-family: "Tahoma";
   font-weight: bold;
+  text-decoration: none;
 }
 
 .mainContent__head{
-  height: 268px;
-  background-color: #f0f0f0; 
+  height: 269px;
+  background-color: #f0f0f0;
+  padding: 20px 25px;
+  display: flex;
+  
+  
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
